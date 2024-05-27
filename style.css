@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+html{
+    height: -webkit-fill-available;
+}
+.banner{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    padding: 1em 10%;
+    overflow: hidden;
+    position: relative;
+    height: -webkit-fill-available;
+}
+nav{
+    padding: 0.5em 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 8em;
+}
+
+.p-btn{
+   display: inline-block;
+    text-decoration: none;
+    padding: 16px 40px;
+    color: black;
+    background-image: linear-gradient(30deg, #f5d442, #CBEA14);
+    font-size: 16px;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    transition: 0.5s;
+}
+.content{
+    margin-top: 5%;
+    max-width: 600px;
+    margin-left: 8em;
+}
+.content h1{
+    font-size: 6em;
+    font-family: 'Kaushan Script', cursive;
+    color: #222;
+}
+.content p{
+    margin: 0.5em 0 0.5em;
+    color: black;
+    font-size: 2em;
+    font-style: oblique;
+}
+.content .p-btn{
+    padding: 1em 12em;
+    font-size: 1em;
+}
+.p-btn:hover{
+    border-top-right-radius: 4em;
+}
+.g-img{
+    width: 40em;
+    position: absolute;
+    bottom: 0;
+    margin-left: 40%;
+}
+.f-img{
+    width: 75%;
+    position: absolute;
+}
+.e-img{
+   width: 75%;
+    top: 0;
+    margin-left: 12em;
+    margin-bottom: -2em;
+}
+.videomp{
+    margin-left: 23em;
+    position: relative;
+    font-size: 1em;
+}
+
+
+
+@media screen and (max-width:600px)
