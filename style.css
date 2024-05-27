@@ -90,14 +90,17 @@ nav{
 @media screen and (max-width:600px){
     .content h1{
     font-size: 3em;
+         margin-left: -85%;
+        margin-bottom: 5%;
     }
     .content p{
         font-size: 1em;
-        margin-left: 0%;
+        margin-left: -55%;
         margin-bottom: 5%;
     }
     .g-img{
-        margin-bottom: -55%;
+        margin-bottom: 30%;
+        margin-top: -100%;
 }
 .videomp{
     margin-left: 0%;
@@ -105,4 +108,11 @@ nav{
     margin-bottom: 5%;
     width: 2%;
 }
+    .logo{
+    width: 30%;
+    font-size: 1em;
+    margin-bottom: -5%;
+    }
+    .content .p-btn{
+   margin-left: -55%;
 }
